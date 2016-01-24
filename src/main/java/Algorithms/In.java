@@ -50,6 +50,10 @@ import java.util.regex.Pattern;
  * @author Robert Sedgewick
  * @author Kevin Wayne
  */
+
+/**
+ *
+ */
 public final class In {
 
     ///// begin: section (1 of 2) of code duplicated from In to StdIn.
