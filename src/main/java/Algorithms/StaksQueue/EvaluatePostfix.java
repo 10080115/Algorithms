@@ -30,11 +30,11 @@ public class EvaluatePostfix {
                 if(arr[i]=='+')
                     val = Integer.parseInt(String.valueOf(stack.pop()))+Integer.parseInt(String.valueOf(stack.pop()));
                 else if(arr[i]=='-')
-                    val = Integer.parseInt(String.valueOf(stack.pop()))+Integer.parseInt(String.valueOf(stack.pop()));
+                    val = Integer.parseInt(String.valueOf(stack.pop()))-Integer.parseInt(String.valueOf(stack.pop()));
                 else if(arr[i]=='*')
-                    val = Integer.parseInt(String.valueOf(stack.pop()))+Integer.parseInt(String.valueOf(stack.pop()));
+                    val = Integer.parseInt(String.valueOf(stack.pop()))*Integer.parseInt(String.valueOf(stack.pop()));
                 else if(arr[i]=='/')
-                    val = Integer.parseInt(String.valueOf(stack.pop()))+Integer.parseInt(String.valueOf(stack.pop()));
+                    val = Integer.parseInt(String.valueOf(stack.pop()))/Integer.parseInt(String.valueOf(stack.pop()));
                 stack.push((char)(val+'0'));
             }
             else
