@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="123eb87f-4059-41c9-b4ef-f832bf0e0402" name="Default" comment="完成冒泡排序和选择排序">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Sorts/BubbleSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Sorts/SelectSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Sorts/SortUtil.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MANIFEST.MF" afterPath="" />
+    <list default="true" id="123eb87f-4059-41c9-b4ef-f832bf0e0402" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Algorithms/In.class" afterPath="$PROJECT_DIR$/target/classes/Algorithms/In.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Algorithms/StaksQueue/CompleteBracket.class" afterPath="$PROJECT_DIR$/target/classes/Algorithms/StaksQueue/CompleteBracket.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Algorithms/StaksQueue/EvaluatePostfix.class" afterPath="$PROJECT_DIR$/target/classes/Algorithms/StaksQueue/EvaluatePostfix.class" />
@@ -24,13 +17,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Thread/Chap1/RunnableThread.class" afterPath="$PROJECT_DIR$/target/classes/Thread/Chap1/RunnableThread.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Thread/Chap1/SharedPro.class" afterPath="$PROJECT_DIR$/target/classes/Thread/Chap1/SharedPro.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Thread/Chap1/ThreadShare1.class" afterPath="$PROJECT_DIR$/target/classes/Thread/Chap1/ThreadShare1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hometest.iml" afterPath="$PROJECT_DIR$/hometest.iml" />
     </list>
     <ignored path="hometest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -142,8 +129,8 @@
       <file leaf-file-name="SortUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Sorts/SortUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08735632">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3494253">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#184#185#0" expanded="true" />
@@ -771,12 +758,19 @@
       <option name="number" value="Default" />
       <updated>1455106366368</updated>
       <workItem from="1455106368270" duration="5039000" />
-      <workItem from="1455202467616" duration="489000" />
+      <workItem from="1455202467616" duration="499000" />
     </task>
+    <task id="LOCAL-00001" summary="完成冒泡排序和选择排序">
+      <created>1455202964511</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1455202964511</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5528000" />
+    <option name="totallyTimeSpent" value="5538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="760" extended-state="0" />
@@ -922,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Sorts/SortUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08735632">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3494253">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding>
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#184#185#0" expanded="true" />
