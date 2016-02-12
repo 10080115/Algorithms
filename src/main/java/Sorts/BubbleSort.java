@@ -5,9 +5,9 @@ package Sorts;
  */
 
 public class BubbleSort {
-    static Comparable[] arr = {3, 5, 8, 4, 2};
+    private static Comparable[] arr = {3, 5, 8, 4, 2, -2};
 
-    public static void SelectSort(Comparable[] arr) {
+    private static void SelectSort(Comparable[] arr) {
         int N = arr.length;
         for (int i = 0; i < N - 1; i++) {
             for (int j = 0; j < N - 1 - i; j++)
