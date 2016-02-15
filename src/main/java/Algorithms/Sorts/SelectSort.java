@@ -1,4 +1,4 @@
-package Sorts;
+package Algorithms.Sorts;
 
 /**
  * Created by lishiwei on 16/2/10.

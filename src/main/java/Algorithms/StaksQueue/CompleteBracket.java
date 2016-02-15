@@ -1,8 +1,10 @@
 package Algorithms.StaksQueue;
 
-import Algorithms.In;
+import Algorithms.Util.In;
 
+import java.util.HashMap;
 import java.util.NoSuchElementException;
+import java.util.Objects;
 
 /**
  * 1+3)+4)

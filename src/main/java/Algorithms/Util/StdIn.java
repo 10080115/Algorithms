@@ -1,4 +1,4 @@
-package Algorithms;
+package Algorithms.Util;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;
@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 /**
- * The <tt>Algorithms.StdIn</tt> class provides static methods for reading strings
+ * The <tt>Algorithms.Util.StdIn</tt> class provides static methods for reading strings
  * and numbers from standard input.
  * These functions fall into one of four categories:
  * <p/>
@@ -69,9 +69,9 @@ import java.util.regex.Pattern;
  * As an example, the following code fragment reads characters from standard input,
  * one character at a time, and prints it to standard output.
  * <pre>
- *  while (!Algorithms.StdIn.hasNextChar()) {
- *      char c = Algorithms.StdIn.readChar();
- *      Algorithms.StdOut.print(c);
+ *  while (!Algorithms.Util.StdIn.hasNextChar()) {
+ *      char c = Algorithms.Util.StdIn.readChar();
+ *      Algorithms.Util.StdOut.print(c);
  *  }
  *  </pre>
  *
@@ -95,9 +95,9 @@ import java.util.regex.Pattern;
  * As an example, the following code fragment reads text from standard input,
  * one line at a time, and prints it to standard output.
  * <pre>
- *  while (!Algorithms.StdIn.hasNextLine()) {
- *      String line = Algorithms.StdIn.readLine();
- *      Algorithms.StdOut.println(line);
+ *  while (!Algorithms.Util.StdIn.hasNextLine()) {
+ *      String line = Algorithms.Util.StdIn.readLine();
+ *      Algorithms.Util.StdOut.println(line);
  *  }
  *  </pre>
  *
@@ -124,38 +124,38 @@ import java.util.regex.Pattern;
  * As an example, the following code fragment reads all of the remaining
  * tokens from standard input and returns them as an array of strings.
  * <pre>
- *  String[] words = Algorithms.StdIn.readAllString();
+ *  String[] words = Algorithms.Util.StdIn.readAllString();
  *  </pre>
  *
  * <b>Differences with Scanner.</b>
- * {@code Algorithms.StdIn} and {@link Scanner} are both designed to parse
+ * {@code Algorithms.Util.StdIn} and {@link Scanner} are both designed to parse
  * tokens and convert them to primitive types and strings.
  * Some of the main differences are summarized below:
  * <ul>
- * <li> {@code Algorithms.StdIn} is a set of static methods and reads
+ * <li> {@code Algorithms.Util.StdIn} is a set of static methods and reads
  * reads input from only standard input. It is suitable for use before
  * a programmer knows about objects.
  * See {@link In} for an object-oriented version that handles
  * input from files, URLs,
  * and sockets.
- * <li> {@code Algorithms.StdIn} uses whitespace as the delimiter between tokens.
- * <li> {@code Algorithms.StdIn} coerces the character-set encoding to UTF-8,
+ * <li> {@code Algorithms.Util.StdIn} uses whitespace as the delimiter between tokens.
+ * <li> {@code Algorithms.Util.StdIn} coerces the character-set encoding to UTF-8,
  * which is a standard character encoding for Unicode.
- * <li> {@code Algorithms.StdIn} coerces the locale to {@link Locale#US},
+ * <li> {@code Algorithms.Util.StdIn} coerces the locale to {@link Locale#US},
  * for consistency with {@link StdOut}, {@link Double#parseDouble(String)},
  * and floating-point literals.
- * <li> {@code Algorithms.StdIn} has convenient methods for reading a single
+ * <li> {@code Algorithms.Util.StdIn} has convenient methods for reading a single
  * character; reading in sequences of integers, doubles, or strings;
  * and reading in all of the remaining input.
  * </ul>
  *
- * Historical note: {@code Algorithms.StdIn} preceded {@code Scanner}; when
+ * Historical note: {@code Algorithms.Util.StdIn} preceded {@code Scanner}; when
  * {@code Scanner} was introduced, this class was reimplemented to use it.
  *
  * <b>Using standard input.</b>
  * Standard input is fundamental operating system abstraction, on Mac OS X,
  * Windows, and Linux.
- * The methods in {@code Algorithms.StdIn} are <em>blocking</em>, which means that they
+ * The methods in {@code Algorithms.Util.StdIn} are <em>blocking</em>, which means that they
  * will wait until you enter input on standard input.
  * If your program has a loop that repeats until standard input is empty,
  * you must signal that the input is finished.
@@ -167,7 +167,7 @@ import java.util.regex.Pattern;
  * <b>Known bugs.</b>
  * Java's UTF-8 encoding does not recognize the optional
  * <a href = "http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4508058">byte-order mask</a>.
- * If the input begins with the optional byte-order mask, <tt>Algorithms.StdIn</tt>
+ * If the input begins with the optional byte-order mask, <tt>Algorithms.Util.StdIn</tt>
  * will have an extra character <code>&#92;uFEFF</code> at the beginning.
  *
  * <b>Reference.</b>
@@ -183,7 +183,7 @@ import java.util.regex.Pattern;
 public final class StdIn {
 
     /***
-     * begin: section (1 of 2) of code duplicated from In to Algorithms.StdIn.
+     * begin: section (1 of 2) of code duplicated from In to Algorithms.Util.StdIn.
      */
 
     // assume Unicode UTF-8 encoding
@@ -203,7 +203,7 @@ public final class StdIn {
     private static final Pattern EVERYTHING_PATTERN = Pattern.compile("\\A");
 
     /***
-     * end: section (1 of 2) of code duplicated from In to Algorithms.StdIn.
+     * end: section (1 of 2) of code duplicated from In to Algorithms.Util.StdIn.
      */
 
     private static Scanner scanner;
@@ -212,7 +212,7 @@ public final class StdIn {
     private StdIn() {
     }
 
-    //// begin: section (2 of 2) of code duplicated from In to Algorithms.StdIn,
+    //// begin: section (2 of 2) of code duplicated from In to Algorithms.Util.StdIn,
     //// with all methods changed from "public" to "public static"
 
     /**
@@ -451,16 +451,16 @@ public final class StdIn {
         return vals;
     }
 
-    //// end: section (2 of 2) of code duplicated from In to Algorithms.StdIn
+    //// end: section (2 of 2) of code duplicated from In to Algorithms.Util.StdIn
 
 
-    // do this once when Algorithms.StdIn is initialized
+    // do this once when Algorithms.Util.StdIn is initialized
     static {
         resync();
     }
 
     /**
-     * If Algorithms.StdIn changes, use this to reinitialize the scanner.
+     * If Algorithms.Util.StdIn changes, use this to reinitialize the scanner.
      */
     private static void resync() {
         setScanner(new Scanner(new java.io.BufferedInputStream(System.in), CHARSET_NAME));

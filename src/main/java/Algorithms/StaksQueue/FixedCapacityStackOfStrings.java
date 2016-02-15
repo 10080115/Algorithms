@@ -1,7 +1,7 @@
 package Algorithms.StaksQueue;
 
-import Algorithms.StdIn;
-import Algorithms.StdOut;
+import Algorithms.Util.StdIn;
+import Algorithms.Util.StdOut;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

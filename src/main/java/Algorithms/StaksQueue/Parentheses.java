@@ -1,7 +1,7 @@
 package Algorithms.StaksQueue;
 
-import Algorithms.In;
-import Algorithms.StdOut;
+import Algorithms.Util.In;
+import Algorithms.Util.StdOut;
 
 import java.util.Stack;
 
