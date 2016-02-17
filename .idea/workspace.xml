@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b975df5-e818-4f6e-a682-ed5aab35d63d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/Sorts/QuickSort.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Algorithms/Sorts/BubbleSort.java" afterPath="$PROJECT_DIR$/src/main/java/Algorithms/Sorts/BubbleSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hometest.iws" />
@@ -98,8 +96,8 @@
       <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms/Sorts/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66452646" vertical-offset="441" max-vertical-offset="1121">
-              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.78651685" vertical-offset="441" max-vertical-offset="1121">
+              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -767,7 +765,7 @@
       <workItem from="1455587082914" duration="5160000" />
       <workItem from="1455601699636" duration="1326000" />
       <workItem from="1455676548453" duration="3908000" />
-      <workItem from="1455703031937" duration="2702000" />
+      <workItem from="1455703031937" duration="2716000" />
     </task>
     <task id="LOCAL-00001" summary="ss">
       <created>1455538631599</created>
@@ -781,11 +779,17 @@
       <option name="project" value="LOCAL" />
       <updated>1455604308670</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成chapter2&#10;">
+      <created>1455707359339</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1455707359339</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17231000" />
+    <option name="totallyTimeSpent" value="17245000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1355,8 +1359,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Algorithms/Sorts/BubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66452646" vertical-offset="441" max-vertical-offset="1121">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.78651685" vertical-offset="441" max-vertical-offset="1121">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding />
         </state>
       </provider>
